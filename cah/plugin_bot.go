@@ -3,7 +3,7 @@ package cah
 import (
 	"fmt"
 
-	"github.com/jonas747/cardsagainstdiscord"
+	"github.com/mmuyskens/cardsagainstdiscord"
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/dshardorchestrator"
 	"github.com/jonas747/yagpdb/bot"
