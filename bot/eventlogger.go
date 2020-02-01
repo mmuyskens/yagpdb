@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/jonas747/yagpdb/bot/eventsystem"
-	"github.com/jonas747/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/bot/eventsystem"
+	"github.com/mmuyskens/yagpdb/common"
 )
 
 const EventLoggerPeriodDuration = time.Second * 10

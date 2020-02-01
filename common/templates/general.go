@@ -12,7 +12,7 @@ import (
 	"emperror.dev/errors"
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/dutil"
-	"github.com/jonas747/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common"
 )
 
 // dictionary creates a map[string]interface{} from the given parameters by

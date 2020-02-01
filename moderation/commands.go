@@ -12,11 +12,11 @@ import (
 	"github.com/jonas747/dcmd"
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/dstate"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/bot/paginatedmessages"
-	"github.com/jonas747/yagpdb/commands"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/scheduledevents2"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/bot/paginatedmessages"
+	"github.com/mmuyskens/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/scheduledevents2"
 )
 
 func MBaseCmd(cmdData *dcmd.Data, targetID int64) (config *Config, targetUser *discordgo.User, err error) {

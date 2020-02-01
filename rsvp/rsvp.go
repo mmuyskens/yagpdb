@@ -3,8 +3,8 @@ package rsvp
 //go:generate sqlboiler --no-hooks psql
 
 import (
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/timezonecompanion/trules"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/timezonecompanion/trules"
 	"github.com/olebedev/when"
 	"github.com/olebedev/when/rules"
 	wcommon "github.com/olebedev/when/rules/common"

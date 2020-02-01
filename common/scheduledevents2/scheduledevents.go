@@ -14,9 +14,9 @@ import (
 
 	"emperror.dev/errors"
 	"github.com/jonas747/discordgo"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/scheduledevents2/models"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/scheduledevents2/models"
 	"github.com/volatiletech/sqlboiler/boil"
 	"github.com/volatiletech/sqlboiler/queries/qm"
 )

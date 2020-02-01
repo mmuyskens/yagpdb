@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"emperror.dev/errors"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/bot/eventsystem"
-	"github.com/jonas747/yagpdb/bot/models"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/config"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/bot/eventsystem"
+	"github.com/mmuyskens/yagpdb/bot/models"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/config"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/config"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/config"
 	"goji.io"
 	"goji.io/pat"
 )

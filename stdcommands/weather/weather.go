@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/jonas747/dcmd"
-	"github.com/jonas747/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/commands"
 	"github.com/lunixbochs/vtclean"
 )
 

@@ -12,11 +12,11 @@ import (
 	"github.com/jonas747/dstate"
 	dshardmanager "github.com/jonas747/jdshardmanager"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/bot/deletequeue"
-	"github.com/jonas747/yagpdb/bot/eventsystem"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/config"
-	"github.com/jonas747/yagpdb/common/pubsub"
+	"github.com/mmuyskens/yagpdb/bot/deletequeue"
+	"github.com/mmuyskens/yagpdb/bot/eventsystem"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/config"
+	"github.com/mmuyskens/yagpdb/common/pubsub"
 )
 
 var (

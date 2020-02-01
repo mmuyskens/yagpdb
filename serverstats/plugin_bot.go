@@ -10,13 +10,13 @@ import (
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/dstate"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/bot/eventsystem"
-	"github.com/jonas747/yagpdb/commands"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/pubsub"
-	"github.com/jonas747/yagpdb/serverstats/messagestatscollector"
-	"github.com/jonas747/yagpdb/web"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/bot/eventsystem"
+	"github.com/mmuyskens/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/pubsub"
+	"github.com/mmuyskens/yagpdb/serverstats/messagestatscollector"
+	"github.com/mmuyskens/yagpdb/web"
 )
 
 func MarkGuildAsToBeChecked(guildID int64) {

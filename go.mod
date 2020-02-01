@@ -1,4 +1,4 @@
-module github.com/jonas747/yagpdb
+module github.com/mmuyskens/yagpdb
 
 go 1.13
 

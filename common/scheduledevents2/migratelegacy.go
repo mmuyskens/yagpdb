@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common"
 	"github.com/sirupsen/logrus"
 )
 

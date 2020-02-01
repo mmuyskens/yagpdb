@@ -12,11 +12,11 @@ import (
 	"github.com/jonas747/dshardorchestrator/orchestrator"
 	"github.com/jonas747/dshardorchestrator/orchestrator/rest"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/config"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/config"
 	"github.com/sirupsen/logrus"
 
-	_ "github.com/jonas747/yagpdb/bot" // register the custom orchestrator events
+	_ "github.com/mmuyskens/yagpdb/bot" // register the custom orchestrator events
 )
 
 var (

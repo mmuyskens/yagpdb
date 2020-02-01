@@ -7,10 +7,10 @@ import (
 
 	"emperror.dev/errors"
 	"github.com/jonas747/dcmd"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/commands"
-	"github.com/jonas747/yagpdb/reddit/models"
-	"github.com/jonas747/yagpdb/stdcommands/util"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/reddit/models"
+	"github.com/mmuyskens/yagpdb/stdcommands/util"
 )
 
 var _ bot.RemoveGuildHandler = (*Plugin)(nil)

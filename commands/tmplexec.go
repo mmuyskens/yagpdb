@@ -2,16 +2,16 @@ package commands
 
 import (
 	"context"
-	"github.com/jonas747/yagpdb/bot/paginatedmessages"
+	"github.com/mmuyskens/yagpdb/bot/paginatedmessages"
 	"strconv"
 	"strings"
 
 	"emperror.dev/errors"
 	"github.com/jonas747/dcmd"
 	"github.com/jonas747/discordgo"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/templates"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/templates"
 )
 
 func init() {

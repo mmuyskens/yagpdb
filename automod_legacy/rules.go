@@ -10,8 +10,8 @@ import (
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/dstate"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/safebrowsing"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/safebrowsing"
 )
 
 var forwardSlashReplacer = strings.NewReplacer("\\", "")

@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jonas747/yagpdb/bot/paginatedmessages"
+	"github.com/mmuyskens/yagpdb/bot/paginatedmessages"
 
 	"github.com/jonas747/dcmd"
 	"github.com/jonas747/discordgo"
-	"github.com/jonas747/yagpdb/automod/models"
-	"github.com/jonas747/yagpdb/commands"
-	"github.com/jonas747/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/automod/models"
+	"github.com/mmuyskens/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/common"
 	"github.com/volatiletech/sqlboiler/boil"
 	"github.com/volatiletech/sqlboiler/queries/qm"
 )

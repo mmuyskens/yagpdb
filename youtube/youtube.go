@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/config"
-	"github.com/jonas747/yagpdb/common/mqueue"
-	"github.com/jonas747/yagpdb/premium"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/config"
+	"github.com/mmuyskens/yagpdb/common/mqueue"
+	"github.com/mmuyskens/yagpdb/premium"
 	"google.golang.org/api/youtube/v3"
 )
 

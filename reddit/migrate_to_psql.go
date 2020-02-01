@@ -9,8 +9,8 @@ import (
 
 	"emperror.dev/errors"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/reddit/models"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/reddit/models"
 	"github.com/mediocregopher/radix/v3"
 	"github.com/volatiletech/sqlboiler/boil"
 )

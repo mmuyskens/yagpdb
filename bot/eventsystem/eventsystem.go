@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/jonas747/discordgo"
-	"github.com/jonas747/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common"
 	"github.com/sirupsen/logrus"
 )
 

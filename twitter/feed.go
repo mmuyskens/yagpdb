@@ -10,11 +10,11 @@ import (
 
 	"github.com/dghubble/go-twitter/twitter"
 	"github.com/jonas747/discordgo"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/mqueue"
-	"github.com/jonas747/yagpdb/feeds"
-	"github.com/jonas747/yagpdb/premium"
-	"github.com/jonas747/yagpdb/twitter/models"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/mqueue"
+	"github.com/mmuyskens/yagpdb/feeds"
+	"github.com/mmuyskens/yagpdb/premium"
+	"github.com/mmuyskens/yagpdb/twitter/models"
 	"github.com/volatiletech/sqlboiler/boil"
 )
 

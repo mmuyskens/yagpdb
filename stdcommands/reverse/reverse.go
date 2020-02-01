@@ -2,7 +2,7 @@ package reverse
 
 import (
 	"github.com/jonas747/dcmd"
-	"github.com/jonas747/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/commands"
 )
 
 var Command = &commands.YAGCommand{

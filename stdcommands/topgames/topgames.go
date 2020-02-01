@@ -6,8 +6,8 @@ import (
 
 	"github.com/jonas747/dcmd"
 	"github.com/jonas747/dstate"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/commands"
 )
 
 var Command = &commands.YAGCommand{

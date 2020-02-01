@@ -6,9 +6,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/jonas747/yagpdb/automod/models"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/premium"
+	"github.com/mmuyskens/yagpdb/automod/models"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/premium"
 	"github.com/karlseguin/ccache"
 )
 

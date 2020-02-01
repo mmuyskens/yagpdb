@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/jonas747/dcmd"
-	"github.com/jonas747/yagpdb/bot/models"
-	"github.com/jonas747/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/bot/models"
+	"github.com/mmuyskens/yagpdb/commands"
 	"github.com/volatiletech/sqlboiler/queries/qm"
 )
 

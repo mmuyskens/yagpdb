@@ -11,12 +11,12 @@ import (
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/dstate"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/scheduledevents2"
-	seventsmodels "github.com/jonas747/yagpdb/common/scheduledevents2/models"
-	"github.com/jonas747/yagpdb/common/templates"
-	"github.com/jonas747/yagpdb/logs"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/scheduledevents2"
+	seventsmodels "github.com/mmuyskens/yagpdb/common/scheduledevents2/models"
+	"github.com/mmuyskens/yagpdb/common/templates"
+	"github.com/mmuyskens/yagpdb/logs"
 	"github.com/volatiletech/sqlboiler/queries/qm"
 )
 

@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/common/basicredispool"
+	"github.com/mmuyskens/yagpdb/common/basicredispool"
 	"github.com/sirupsen/logrus"
 )
 

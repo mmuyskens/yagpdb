@@ -3,9 +3,9 @@ package notifications
 import (
 	"fmt"
 	"github.com/jonas747/discordgo"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/configstore"
-	"github.com/jonas747/yagpdb/web"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/configstore"
+	"github.com/mmuyskens/yagpdb/web"
 	"goji.io/pat"
 	"html/template"
 	"net/http"

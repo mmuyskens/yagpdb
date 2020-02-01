@@ -3,13 +3,13 @@ package run
 import (
 	"bytes"
 	"fmt"
-	"github.com/jonas747/yagpdb/common/config"
+	"github.com/mmuyskens/yagpdb/common/config"
 	"os"
 	"sort"
 	"strings"
 
 	"github.com/jonas747/dcmd"
-	"github.com/jonas747/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/commands"
 )
 
 func GenCommandsDocs() {

@@ -3,11 +3,11 @@ package serverstats
 import (
 	"database/sql"
 	"fmt"
-	"github.com/jonas747/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common"
 	"os"
 	"testing"
 
-	"github.com/jonas747/yagpdb/common/testutils"
+	"github.com/mmuyskens/yagpdb/common/testutils"
 )
 
 var db *sql.DB

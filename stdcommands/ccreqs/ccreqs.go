@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/jonas747/dcmd"
-	"github.com/jonas747/yagpdb/commands"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/stdcommands/util"
+	"github.com/mmuyskens/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/stdcommands/util"
 )
 
 var Command = &commands.YAGCommand{

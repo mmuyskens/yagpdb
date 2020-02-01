@@ -19,7 +19,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/common/basicredispool"
+	"github.com/mmuyskens/yagpdb/common/basicredispool"
 	"github.com/sirupsen/logrus"
 	"github.com/volatiletech/sqlboiler/boil"
 )

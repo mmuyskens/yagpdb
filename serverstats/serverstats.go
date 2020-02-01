@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/premium"
-	"github.com/jonas747/yagpdb/serverstats/models"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/premium"
+	"github.com/mmuyskens/yagpdb/serverstats/models"
 )
 
 type Plugin struct {

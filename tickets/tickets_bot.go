@@ -2,10 +2,10 @@ package tickets
 
 import (
 	"emperror.dev/errors"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/bot/eventsystem"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/tickets/models"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/bot/eventsystem"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/tickets/models"
 )
 
 var _ bot.BotInitHandler = (*Plugin)(nil)

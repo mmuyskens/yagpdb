@@ -9,10 +9,10 @@ import (
 	textapi "github.com/AYLIEN/aylien_textapi_go"
 	"github.com/jonas747/dcmd"
 	"github.com/jonas747/dstate"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/commands"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/config"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/config"
 )
 
 var (

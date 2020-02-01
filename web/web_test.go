@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/jonas747/discordgo"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/models"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/models"
 )
 
 func createUserGuild(connected bool, owner bool, manageServer bool) *common.GuildWithConnected {

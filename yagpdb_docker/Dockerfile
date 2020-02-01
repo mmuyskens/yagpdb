@@ -4,10 +4,10 @@ WORKDIR $GOPATH/src
 
 
 # Uncomment during development
-# COPY . github.com/jonas747/yagpdb
+# COPY . github.com/mmuyskens/yagpdb
 
 RUN CGO_ENABLED=0 GOOS=linux go get -v \
-  github.com/jonas747/yagpdb/cmd/yagpdb
+  github.com/mmuyskens/yagpdb/cmd/yagpdb
 
 FROM alpine:latest
 
@@ -23,11 +23,11 @@ RUN apk --no-cache add ca-certificates
 RUN apk --no-cache add ffmpeg
 
 # Handle templates for plugins automatically
-COPY --from=builder /go/src/github.com/jonas747/yagpdb/*/assets/*.html templates/plugins/
+COPY --from=builder /go/src/github.com/mmuyskens/yagpdb/*/assets/*.html templates/plugins/
 
-COPY --from=builder /go/src/github.com/jonas747/yagpdb/cmd/yagpdb/templates templates/
-COPY --from=builder /go/src/github.com/jonas747/yagpdb/cmd/yagpdb/posts posts/
-COPY --from=builder /go/src/github.com/jonas747/yagpdb/cmd/yagpdb/static static/
+COPY --from=builder /go/src/github.com/mmuyskens/yagpdb/cmd/yagpdb/templates templates/
+COPY --from=builder /go/src/github.com/mmuyskens/yagpdb/cmd/yagpdb/posts posts/
+COPY --from=builder /go/src/github.com/mmuyskens/yagpdb/cmd/yagpdb/static static/
 
 COPY --from=builder /go/bin/yagpdb .
 

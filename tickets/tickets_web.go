@@ -3,9 +3,9 @@ package tickets
 import (
 	"database/sql"
 	"fmt"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/tickets/models"
-	"github.com/jonas747/yagpdb/web"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/tickets/models"
+	"github.com/mmuyskens/yagpdb/web"
 	"github.com/volatiletech/sqlboiler/boil"
 	"goji.io/pat"
 	"html/template"

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/config"
-	"github.com/jonas747/yagpdb/common/patreon/patreonapi"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/config"
+	"github.com/mmuyskens/yagpdb/common/patreon/patreonapi"
 	"golang.org/x/oauth2"
 )
 

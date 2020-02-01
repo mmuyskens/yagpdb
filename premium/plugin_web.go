@@ -11,8 +11,8 @@ import (
 
 	"github.com/didip/tollbooth"
 	"github.com/didip/tollbooth/limiter"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/web"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/web"
 	"goji.io"
 	"goji.io/pat"
 )

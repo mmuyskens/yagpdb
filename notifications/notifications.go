@@ -2,8 +2,8 @@ package notifications
 
 import (
 	"emperror.dev/errors"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/configstore"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/configstore"
 	"golang.org/x/net/context"
 	"strconv"
 	"strings"

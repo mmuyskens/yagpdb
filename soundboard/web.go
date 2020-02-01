@@ -3,9 +3,9 @@ package soundboard
 import (
 	"emperror.dev/errors"
 	"fmt"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/soundboard/models"
-	"github.com/jonas747/yagpdb/web"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/soundboard/models"
+	"github.com/mmuyskens/yagpdb/web"
 	"github.com/volatiletech/sqlboiler/boil"
 	"github.com/volatiletech/sqlboiler/queries/qm"
 	"goji.io"

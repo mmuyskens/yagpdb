@@ -4,7 +4,7 @@ import (
 	"emperror.dev/errors"
 	"encoding/json"
 	"github.com/google/safebrowsing"
-	"github.com/jonas747/yagpdb/common/backgroundworkers"
+	"github.com/mmuyskens/yagpdb/common/backgroundworkers"
 	"io/ioutil"
 	"net/http"
 	"strings"

@@ -5,8 +5,8 @@ package tickets
 import (
 	"fmt"
 	"github.com/jonas747/discordgo"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/tickets/models"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/tickets/models"
 )
 
 type Plugin struct{}

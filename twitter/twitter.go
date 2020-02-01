@@ -5,10 +5,10 @@ package twitter
 import (
 	"github.com/dghubble/go-twitter/twitter"
 	"github.com/dghubble/oauth1"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/config"
-	"github.com/jonas747/yagpdb/common/mqueue"
-	"github.com/jonas747/yagpdb/twitter/models"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/config"
+	"github.com/mmuyskens/yagpdb/common/mqueue"
+	"github.com/mmuyskens/yagpdb/twitter/models"
 	"sync"
 )
 

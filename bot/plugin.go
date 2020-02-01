@@ -3,7 +3,7 @@ package bot
 import (
 	"context"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/bot/models"
+	"github.com/mmuyskens/yagpdb/bot/models"
 	"github.com/volatiletech/null"
 	"github.com/volatiletech/sqlboiler/queries/qm"
 	"sync"
@@ -12,7 +12,7 @@ import (
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/dshardorchestrator"
 	"github.com/jonas747/dstate"
-	"github.com/jonas747/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common"
 )
 
 const (

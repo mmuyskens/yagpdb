@@ -7,8 +7,8 @@ import (
 
 	"emperror.dev/errors"
 
-	"github.com/jonas747/yagpdb/bot/botrest"
-	"github.com/jonas747/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/bot/botrest"
+	"github.com/mmuyskens/yagpdb/common"
 )
 
 type ChannelStats struct {

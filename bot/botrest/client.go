@@ -8,8 +8,8 @@ import (
 
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/internalapi"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/internalapi"
 )
 
 var clientLogger = common.GetFixedPrefixLogger("botrest_client")

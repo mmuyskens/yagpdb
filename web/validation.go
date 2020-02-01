@@ -35,8 +35,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/jonas747/discordgo"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/templates"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/templates"
 	"github.com/lib/pq"
 )
 

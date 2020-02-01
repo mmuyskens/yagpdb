@@ -4,7 +4,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jonas747/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common"
 )
 
 type Plugin interface {

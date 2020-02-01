@@ -10,13 +10,13 @@ import (
 	"github.com/jonas747/dshardorchestrator"
 	"github.com/jonas747/dstate"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/bot"
-	"github.com/jonas747/yagpdb/bot/eventsystem"
-	"github.com/jonas747/yagpdb/commands"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/pubsub"
-	"github.com/jonas747/yagpdb/common/scheduledevents2"
-	seventsmodels "github.com/jonas747/yagpdb/common/scheduledevents2/models"
+	"github.com/mmuyskens/yagpdb/bot"
+	"github.com/mmuyskens/yagpdb/bot/eventsystem"
+	"github.com/mmuyskens/yagpdb/commands"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/pubsub"
+	"github.com/mmuyskens/yagpdb/common/scheduledevents2"
+	seventsmodels "github.com/mmuyskens/yagpdb/common/scheduledevents2/models"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/configstore"
-	"github.com/jonas747/yagpdb/common/pubsub"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/configstore"
+	"github.com/mmuyskens/yagpdb/common/pubsub"
 	"github.com/lib/pq"
 )
 

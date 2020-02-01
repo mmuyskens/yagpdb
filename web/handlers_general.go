@@ -17,11 +17,11 @@ import (
 
 	"github.com/jonas747/discordgo"
 	"github.com/jonas747/retryableredis"
-	"github.com/jonas747/yagpdb/bot/botrest"
-	"github.com/jonas747/yagpdb/common"
-	"github.com/jonas747/yagpdb/common/models"
-	"github.com/jonas747/yagpdb/common/patreon"
-	"github.com/jonas747/yagpdb/web/discordblog"
+	"github.com/mmuyskens/yagpdb/bot/botrest"
+	"github.com/mmuyskens/yagpdb/common"
+	"github.com/mmuyskens/yagpdb/common/models"
+	"github.com/mmuyskens/yagpdb/common/patreon"
+	"github.com/mmuyskens/yagpdb/web/discordblog"
 	"github.com/patrickmn/go-cache"
 	"goji.io/pat"
 )
